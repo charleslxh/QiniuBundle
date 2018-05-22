@@ -1,0 +1,23 @@
+{
+    "name": "charles/qiniu-bundle",
+    "description": "Qiniu bundle for Symfony",
+    "keywords": ["qiniu", "symfony"],
+    "homepage": "https://github.com/charleslxh/QiniuBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "charles.liao",
+            "email": "charleslxh@icloud.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/framework-bundle": "^3.4 || ^4.0",
+        "symfony/http-foundation": "^3.4 || ^4.0",
+        "symfony/yaml": "^3.4 || ^4.0",
+        "qiniu/php-sdk": "^7.2.6"
+    },
+    "autoload": {
+        "psr-4": { "Charleslxh\\RedisBundle\\": "" }
+    }
+}
